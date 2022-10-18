@@ -17,3 +17,13 @@ tfenv use 1.3.2
 # Language Servers
 brew install hashicorp/tap/terraform-ls
 brew install tflint
+
+# Python
+brew install python3
+brew install pipx
+pipx install poetry
+
+brew install postgresql
+
+# Neovim Remote
+brew install nvr
