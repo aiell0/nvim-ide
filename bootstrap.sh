@@ -27,3 +27,5 @@ brew install postgresql
 
 # Neovim Remote
 brew install nvr
+
+sudo npm install -g typescript typescript-language-server
