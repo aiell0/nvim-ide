@@ -46,7 +46,16 @@ return {
 
   ["radenling/vim-dispatch-neovim"] = {
     after = "vim-dispatch"
-  }
+  },
+
+  ["tpope/vim-obsession"] = {
+  },
+
+  ["gpanders/editorconfig.nvim"] = {
+  },
+
+  ["tpope/vim-projectionist"] = {
+  },
 
   -- remove plugin
   -- ["hrsh7th/cmp-path"] = false,
