@@ -9,6 +9,8 @@ brew install --cask font-droid-sans-mono-nerd-font
 brew install zsh-syntax-highlighting
 brew install zsh-autosuggestions
 
+brew install ripgrep
+
 # Terraform
 brew install tfenv
 tfenv install 1.3.2
