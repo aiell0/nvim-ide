@@ -31,3 +31,10 @@ brew install postgresql
 brew install nvr
 
 sudo npm install -g typescript typescript-language-server
+
+brew install awscli
+brew install jq
+brew install yarn
+brew install rain
+brew tap aws/tap
+brew install aws-sam-cli

@@ -7,3 +7,6 @@
 -- })
 vim.opt.undodir = os.getenv("VIMDATA") .. "/undo"
 vim.opt.relativenumber = true
+
+-- history of commands
+vim.opt.history = 200
