@@ -57,6 +57,8 @@ return {
   ["tpope/vim-projectionist"] = {
   },
 
+  ["tpope/vim-unimpaired"] = {
+  },
   -- remove plugin
   -- ["hrsh7th/cmp-path"] = false,
 }
