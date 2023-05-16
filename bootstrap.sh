@@ -38,3 +38,5 @@ brew install yarn
 brew install rain
 brew tap aws/tap
 brew install aws-sam-cli
+
+go install golang.org/x/tools/gopls@latest
