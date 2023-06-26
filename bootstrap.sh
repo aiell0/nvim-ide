@@ -2,64 +2,19 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Nerd Fonts
-brew tap homebrew/cask-fonts aws/tap
+brew tap homebrew/cask-fonts
+brew tap aws/tap
 brew install --cask font-droid-sans-mono-nerd-font
 
 brew install mvn pkg-config julia luarocks hunspell php composer vale node nvm prettier wget zsh-autosuggestions zsh-syntax-highlighting ripgrep lazygit tfenv hashicorp/tap/terraform-ls tflint python3 pipx poetry postgresql gcc nvr awscli jq yarn rain aws-sam-cli go
-# brew install pkg-config
-# brew install julia
-# brew install luarocks
-# brew install hunspell
-# brew install php
-# brew install composer
-# brew install vale
 
-# brew install node
-# brew install nvm
-# brew install prettier
-# brew install wget
-#
+# Install Rust
 curl https://sh.rustup.rs -sSf | sh
 c
 mkdir ~/.nvm
 
-# omzsh plugins
-# brew install zsh-syntax-highlighting
-# brew install zsh-autosuggestions
-#
-# brew install ripgrep
-# brew install lazygit
-
-# Terraform
-# brew install tfenv
-# tfenv install 1.3.2
-# tfenv use 1.3.2
-
-# Language Servers
-# brew install hashicorp/tap/terraform-ls
-# brew install tflint
-
-# Python
-# brew install python3
-# brew install pipx
-# pipx install poetry
-
-# brew install postgresql
-# brew install gcc
-
-# Neovim Remote
-# brew install nvr
-
 sudo npm install -g typescript typescript-language-server
 
-# brew install awscli
-# brew install jq
-# brew install yarn
-# brew install rain
-# brew tap aws/tap
-# brew install aws-sam-cli
-
-# brew install go
 go install golang.org/x/tools/gopls@latest
 
 # Install Nvchad

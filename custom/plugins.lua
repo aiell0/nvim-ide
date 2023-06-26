@@ -52,10 +52,12 @@ local plugins = {
     -- optional for floating window border decoration
     dependencies = {
         "nvim-lua/plenary.nvim",
+        "nvim-telescope/telescope.nvim"
     },
     lazy = false,
     config = function()
       require "custom.configs.lazygit"
+      require("telescope").load_extension("lazygit")
     end,
   }
 
