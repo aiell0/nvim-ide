@@ -80,7 +80,7 @@ rm -rf ~/.cache/nvim
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 
 # set up vale
-cat << EOF > ~/
+cat << EOF > ~/.vale.ini
 StylesPath = styles
 
 MinAlertLevel = suggestion
@@ -92,3 +92,6 @@ BasedOnStyles = Vale, RedHat, alex
 EOF
 
 vale sync
+
+git config --global user.name aiell0
+git config --global user.email lawrence.aiello@laiello.com
