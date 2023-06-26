@@ -5,8 +5,8 @@
 brew tap homebrew/cask-fonts
 brew install --cask font-droid-sans-mono-nerd-font
 
-brew install mvn
-brew install pkg-config
+brew install mvn pkg-config
+# brew install pkg-config
 brew install julia
 brew install luarocks
 brew install hunspell
@@ -63,21 +63,21 @@ brew install go
 go install golang.org/x/tools/gopls@latest
 
 # Install Nvchad
-mkdir ~/.config/nvim
-mkdir ~/.cache/nvim
+# mkdir ~/.config/nvim
+# mkdir ~/.cache/nvim
 
 # backup
-mkdir ~/backup_nvim
-cp -r ~/.config/nvim ~/backup_nvim
-cp -r ~/.local/share/nvim ~/backup_nvim
-cp -r ~/.cache/nvim ~/backup_nvim
+# mkdir ~/backup_nvim
+# cp -r ~/.config/nvim ~/backup_nvim
+# cp -r ~/.local/share/nvim ~/backup_nvim
+# cp -r ~/.cache/nvim ~/backup_nvim
 
 # delete all previous
-rm -rf ~/.config/nvim
-rm -rf ~/.local/share/nvim
-rm -rf ~/.cache/nvim
+# rm -rf ~/.config/nvim
+# rm -rf ~/.local/share/nvim
+# rm -rf ~/.cache/nvim
 
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+# git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 
 # set up vale
 cat << EOF > ~/.vale.ini
