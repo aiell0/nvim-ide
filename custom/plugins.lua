@@ -59,6 +59,11 @@ local plugins = {
       require "custom.configs.lazygit"
       require("telescope").load_extension("lazygit")
     end,
+  },
+
+  {
+    "github/copilot.vim",
+    lazy = false
   }
 
   -- To make a plugin not be loaded
