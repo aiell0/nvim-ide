@@ -6,7 +6,7 @@ brew tap homebrew/cask-fonts
 brew tap aws/tap
 brew install --cask font-droid-sans-mono-nerd-font
 
-brew install mvn pkg-config julia luarocks hunspell php composer vale node nvm prettier wget zsh-autosuggestions zsh-syntax-highlighting ripgrep lazygit tfenv hashicorp/tap/terraform-ls tflint python3 pipx poetry postgresql gcc nvr awscli jq yarn rain aws-sam-cli go
+brew install mvn pkg-config julia luarocks hunspell php composer vale node nvm prettier wget zsh-autosuggestions zsh-syntax-highlighting ripgrep lazygit tfenv hashicorp/tap/terraform-ls tflint python3 pipx poetry postgresql gcc nvr awscli jq yarn rain aws-sam-cli go pre-commit
 
 # Install Rust
 curl https://sh.rustup.rs -sSf | sh
