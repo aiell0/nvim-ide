@@ -81,8 +81,17 @@ local plugins = {
     config = function()
       require("copilot_cmp").setup()
     end
-  }
+  },
 
+  {
+    'Equilibris/nx.nvim',
+    dependencies = {
+      'nvim-telescope/telescope.nvim'
+    },
+    config = function()
+      require("nx").setup {}
+    end
+  }
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
