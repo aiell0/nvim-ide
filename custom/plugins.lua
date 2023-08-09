@@ -62,16 +62,6 @@ local plugins = {
   },
 
   {
-    "zbirenbaum/copilot-cmp",
-    dependencies = {
-      "zbirenbaum/copilot.lua"
-    },
-    config = function()
-      require("copilot_cmp").setup()
-    end
-  },
-
-  {
     'Equilibris/nx.nvim',
     dependencies = {
       'nvim-telescope/telescope.nvim'
@@ -87,7 +77,13 @@ local plugins = {
       'kdheepak/lazygit.nvim'
     },
     lazy = false,
-  }
+  },
+
+  {
+    "chrisgrieser/nvim-early-retirement",
+    config = true,
+    event = "VeryLazy",
+  },
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
