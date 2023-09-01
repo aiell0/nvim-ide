@@ -23,8 +23,7 @@ for _, lsp in ipairs(servers) do
                   organization = "redesignhealth",
                   cliPath = "/opt/homebrew/bin/snyk",
                   token = "1b415555-99ba-440f-8eda-843dcdb5314e",
-                  integrationName = "NEOVIM",
-                  scanningMode = "manual"
+                  integrationName = "NEOVIM"
               }
           };
       }
