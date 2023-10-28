@@ -82,7 +82,11 @@ local plugins = {
   {
     "chrisgrieser/nvim-early-retirement",
     config = true,
-    event = "VeryLazy",
+  },
+
+  {
+    "github/copilot.vim",
+    lazy = false
   },
   -- To make a plugin not be loaded
   -- {
