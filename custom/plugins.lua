@@ -88,7 +88,15 @@ local plugins = {
     "github/copilot.vim",
     lazy = false
   },
-  -- To make a plugin not be loaded
+  {
+   "folke/trouble.nvim",
+   dependencies = { "nvim-tree/nvim-web-devicons" },
+   opts = {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+   },
+  } -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
   --   enabled = false
