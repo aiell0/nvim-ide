@@ -5,7 +5,7 @@ local lspconfig = require "lspconfig"
 local configs = require "lspconfig.configs"
 
 -- if you just want default config for the servers then put them in a table
-local servers = {"html", "tsserver", "dockerls", "jsonls", "terraformls", "tflint", "eslint", "pylsp", "pyre", "pylyzer", "pyright", "golangci_lint_ls", "gopls", "grammarly", "bashls", "angularls", "eslint", "gopls", "helm_ls", "java_language_server", "jsonls", "yamlls", "snyk"}
+local servers = {"html", "tsserver", "dockerls", "jsonls", "terraformls", "tflint", "eslint", "pylsp", "pyright", "ruff_lsp", "golangci_lint_ls", "gopls", "grammarly", "bashls", "angularls", "eslint", "gopls", "helm_ls", "java_language_server", "jsonls", "yamlls", "snyk"}
 
 for _, lsp in ipairs(servers) do
 
