@@ -70,9 +70,12 @@ ZSH_THEME="gentoo"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-interactive-cd aws brew docker gh git kubectl npm nvm poetry pip postgres python terraform yarn tmux)
+plugins=(git argocd 1password aliases aws brew bun cp docker-compose docker fzf gh github helm istioctl iterm2 kubectl kubectx minikube npm nvm poetry python ripgrep rust rvm terraform vscode)
 
 source $ZSH/oh-my-zsh.sh
+export HOMEBREW_NO_ANALYTICS=1
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # User configuration
 
@@ -99,23 +102,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-export HOMEBREW_NO_ANALYTICS=1
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-export VIMCONFIG=~/.config/nvim
-export VIMDATA=~/.local/share/nvim
-export NVM_DIR="$HOME/.nvm"
-
-if [ -n "$NVIM_LISTEN_ADDRESS" ]; then
-    alias nvim=nvr -cc split --remote-wait +'set bufhidden=wipe'
-fi
-
-if [ -n "$NVIM_LISTEN_ADDRESS" ]; then
-    export VISUAL="nvr -cc split --remote-wait +'set bufhidden=wipe'"
-    export EDITOR="nvr -cc split --remote-wait +'set bufhidden=wipe'"
-else
-    export VISUAL="nvim"
-    export EDITOR="nvim"
-fi
