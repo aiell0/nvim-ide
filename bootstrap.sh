@@ -6,7 +6,7 @@ brew tap homebrew/cask-fonts
 brew tap aws/tap
 brew install --cask font-droid-sans-mono-nerd-font
 
-brew install mvn pkg-config julia luarocks hunspell php composer vale node nvm prettier wget zsh-autosuggestions zsh-syntax-highlighting ripgrep lazygit tfenv hashicorp/tap/terraform-ls tflint python3 pipx poetry postgresql gcc nvr awscli jq yarn rain aws-sam-cli go pre-commit terraform-lsp meld eksctl derailed/k9s/k9s kubectx stern kube-ps1 act gh
+brew install mvn pkg-config julia luarocks hunspell php composer vale node nvm prettier wget zsh-autosuggestions zsh-syntax-highlighting ripgrep lazygit tfenv hashicorp/tap/terraform-ls tflint python3 pipx poetry postgresql gcc nvr awscli jq yarn rain aws-sam-cli go pre-commit terraform-lsp meld eksctl derailed/k9s/k9s kubectx stern kube-ps1 act gh k9 helm
 
 # Install Rust
 curl https://sh.rustup.rs -sSf | sh
@@ -51,6 +51,3 @@ BasedOnStyles = Vale, RedHat, alex
 EOF
 
 vale sync
-
-git config --global user.name aiell0
-git config --global user.email lawrence.aiello@laiello.com
