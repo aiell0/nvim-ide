@@ -8,6 +8,10 @@ brew install --cask font-droid-sans-mono-nerd-font
 
 brew install mvn pkg-config julia luarocks hunspell php composer vale node nvm prettier wget zsh-autosuggestions zsh-syntax-highlighting ripgrep lazygit tfenv hashicorp/tap/terraform-ls tflint python3 pipx poetry postgresql gcc nvr awscli jq yarn rain aws-sam-cli go pre-commit terraform-lsp meld eksctl derailed/k9s/k9s kubectx stern kube-ps1 act gh k9 helm minamijoyo/hcledit/hcledit terraform-docs checkov terrascan tfsec trivy
 
+git config --global --add --bool push.autoSetupRemote true
+git config --global user.name aiell0
+git config --global user.email lawrence.aiello@laiello.com
+
 # Install Rust
 curl https://sh.rustup.rs -sSf | sh
 c
