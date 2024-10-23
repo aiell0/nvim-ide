@@ -26,3 +26,6 @@ go install github.com/bonnefoa/kubectl-fzf/v3/cmd/kubectl-fzf-server@main
 
 # Oh My ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+wget https://raw.githubusercontent.com/ahmetb/kubectl-aliases/master/.kubectl_aliases
+mv .kubectl_aliases $HOME
