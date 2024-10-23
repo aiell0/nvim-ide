@@ -23,3 +23,6 @@ go install golang.org/x/tools/gopls@latest
 # https://github.com/bonnefoa/kubectl-fzf
 go install github.com/bonnefoa/kubectl-fzf/v3/cmd/kubectl-fzf-completion@main
 go install github.com/bonnefoa/kubectl-fzf/v3/cmd/kubectl-fzf-server@main
+
+# Oh My ZSH
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
