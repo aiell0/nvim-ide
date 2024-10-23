@@ -104,3 +104,11 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 [ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
+
+# bun completions
+[ -s "/Users/lawrenceaiello/.bun/_bun" ] && source "/Users/lawrenceaiello/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
+export PATH="/Users/lawrenceaiello/.local/bin:$PATH"
