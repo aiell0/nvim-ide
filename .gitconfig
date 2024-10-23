@@ -1,0 +1,12 @@
+[push]
+	autosetupremote = true
+[user]
+	name = aiell0
+	email = lawrence.aiello@laiello.com
+	signingkey = A1C84DB019EF4AF8
+[commit]
+	gpgSign = true
+[tag]
+	gpgSign = true
+[pull]
+	rebase = false
