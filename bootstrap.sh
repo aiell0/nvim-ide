@@ -8,7 +8,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew tap aws/tap
 brew install --cask font-droid-sans-mono-nerd-font
 
-brew install mvn pkg-config hunspell php composer node nvm prettier wget zsh-autosuggestions zsh-syntax-highlighting ripgrep tfenv hashicorp/tap/terraform-ls tflint python3 pipx poetry postgresql gcc nvr awscli jq yarn rain aws-sam-cli go pre-commit terraform-lsp eksctl derailed/k9s/k9s kubectx stern kube-ps1 act gh k9s helm minamijoyo/hcledit/hcledit terraform-docs checkov terrascan tfsec trivy fzf copyq
+brew install mvn pkg-config hunspell php composer node nvm prettier wget zsh-autosuggestions zsh-syntax-highlighting ripgrep tfenv hashicorp/tap/terraform-ls tflint python3 pipx poetry postgresql gcc nvr awscli jq yarn rain aws-sam-cli go pre-commit terraform-lsp eksctl derailed/k9s/k9s kubectx stern kube-ps1 act gh k9s helm minamijoyo/hcledit/hcledit terraform-docs checkov terrascan tfsec trivy fzf maccy
 
 # https://copyq.readthedocs.io/en/latest/installation.html
 xattr -d com.apple.quarantine /Applications/CopyQ.app
